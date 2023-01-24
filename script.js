@@ -59,3 +59,12 @@ class SlideStories {
 }
 
 new SlideStories('slide');
+
+/*Menu responsivo*/
+
+function menuResp() {
+    const respMenu = document.querySelector('.menuResp');
+    const divMenuHeader = document.querySelector('.divMenuHeader')
+    respMenu.classList.toggle('active')
+    divMenuHeader.classList.toggle('active')
+}
