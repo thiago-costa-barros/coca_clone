@@ -1,7 +1,12 @@
-# clones_websites
+# WEBSITE CLONE
 Projetos de clones de Website ou referências
 
-Starbucks
-![image](https://user-images.githubusercontent.com/114679335/203435953-a9207684-f3ac-4311-8465-a5915ced7ad8.png)
-Uso de JavaScrip para alterar imagem 
-Links externos 
+COCA COLA
+![image](https://user-images.githubusercontent.com/114679335/214466725-23225514-1761-429a-a6bf-0adb26900d34.png)
+Uso de JavaScrip para alterar imagem de forma slide e menu para responsividade qquando usado breakpoints da resolução
+Ajustes na responsividade
+CSS 
+
+Link GitHub Page
+https://thiago-costa-barros.github.io/coca_clone/
+ 
