@@ -67,4 +67,7 @@ function menuResp() {
     const divMenuHeader = document.querySelector('.divMenuHeader')
     respMenu.classList.toggle('active')
     divMenuHeader.classList.toggle('active')
+
 }
+var divMenuHeader = document.getElementById('divMenuHeader')
+divMenuHeader.style.overflow = 'hidden';
