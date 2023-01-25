@@ -376,6 +376,10 @@ footer {
 @media (max-width: 394px) {
     footer {
         padding-top: 6rem;
-        transform: scale (0.85);
+
+    }
+
+    .slide-items {
+        bottom: -3rem;
     }
 }
