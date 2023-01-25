@@ -28,7 +28,6 @@ section {
     width: 100%;
     height: 100%;
     min-width: 320px;
-    min-height: 95vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,6 +58,7 @@ header {
 .divLogoHeader img {
     position: relative;
     max-width: 20rem;
+
 }
 
 .divMenuHeader {
@@ -194,14 +194,18 @@ header {
     grid-column: 1 / 3;
 }
 
+footer {
+    width: 100%;
+    padding: 2rem;
+}
 
 .thumb-logo {
     position: relative;
+    left: 0;
     bottom: 0;
-    margin: 2rem auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .thumb-logo li {
@@ -308,6 +312,8 @@ header {
         left: 0;
         width: 100%;
         height: 100%;
+        max-height: 100vh;
+        margin: 0 0;
         display: flex;
         background-color: #e51e2a;
         display: flex;
@@ -345,13 +351,31 @@ header {
         background-position: center;
         filter: invert(1);
     }
+}
 
-    footer {}
+@media (max-width: 482px) {
+    h2 {
+        line-height: 1em;
+    }
+
+    .midBody img {
+        padding-top: 10rem;
+    }
+
+    .midBodyLeft {
+        margin-bottom: 5rem;
+    }
+
+    header .divLogoHeader {
+        padding: 0 auto;
+        margin-left: -5rem;
+
+    }
 
 }
 
-@media (max-width: 444px) {
-    h2 {
-        line-height: 1em;
+@media (max-width: 346px) {
+    footer {
+        padding-top: 4rem;
     }
 }
